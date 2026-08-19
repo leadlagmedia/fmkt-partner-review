@@ -1,5 +1,5 @@
 /* =====================================================================
-   The Free Markets ETF (FMKT) — Redesign Prototype
+   The Free Markets ETF (FMKT)  -  Redesign Prototype
    COMPLIANCE NOTE (internal, non-rendered): This is a PRIVATE advisor/investor
    diligence + SEO prototype. It is NOT a live replacement site. All copy avoids
    performance claims, outcome-implying language, holdings commentary beyond
@@ -23,7 +23,7 @@
   --space-5: 1.25rem; --space-6: 1.5rem; --space-8: 2rem; --space-10: 2.5rem;
   --space-12: 3rem; --space-16: 4rem; --space-20: 5rem; --space-24: 6rem; --space-32: 8rem;
 
-  /* Surfaces — warm paper / institutional ivory */
+  /* Surfaces  -  warm paper / institutional ivory */
   --color-bg: #f6f4ee;
   --color-surface: #fbfaf6;
   --color-surface-2: #ffffff;
@@ -31,19 +31,19 @@
   --color-divider: #ddd8cc;
   --color-border: #cfc9ba;
 
-  /* Text — deep ink navy */
+  /* Text  -  deep ink navy */
   --color-text: #16223b;
   --color-text-muted: #5b6478;
   --color-text-faint: #9aa0ad;
   --color-text-inverse: #f6f4ee;
 
-  /* Primary — deep navy */
+  /* Primary  -  deep navy */
   --color-primary: #16335e;
   --color-primary-hover: #0f2647;
   --color-primary-active: #0a1b33;
   --color-primary-highlight: #d6dcea;
 
-  /* Accent — antique gold (used sparingly, CTA + rules only) */
+  /* Accent  -  antique gold (used sparingly, CTA + rules only) */
   --color-accent: #9a7a2e;
   --color-accent-hover: #82672663;
   --color-accent-soft: #c8a85a;

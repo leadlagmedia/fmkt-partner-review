@@ -1,6 +1,6 @@
-/* FMKT prototype — shared interactions.
+/* FMKT prototype  -  shared interactions.
    COMPLIANCE: No analytics, no social pixels, no external form submission.
-   The advisor form is intentionally INERT — it never POSTs anywhere; it only
+   The advisor form is intentionally INERT  -  it never POSTs anywhere; it only
    shows an on-page acknowledgement so reviewers can see the intended UX. */
 
 (function () {
@@ -95,7 +95,7 @@
     form.addEventListener('submit', function (ev) {
       ev.preventDefault(); // never submits anywhere
       if (status) {
-        status.textContent = 'Prototype only — no information is transmitted. In production this request would route to the fund\u2019s advisor relations team.';
+        status.textContent = 'Prototype only  -  no information is transmitted. In production this request would route to the fund\u2019s advisor relations team.';
         status.classList.add('is-visible');
       }
       form.querySelectorAll('input, textarea, select').forEach(function (f) { if (f.type !== 'submit') f.value = ''; });
